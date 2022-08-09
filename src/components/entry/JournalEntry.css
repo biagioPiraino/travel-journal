@@ -1,0 +1,60 @@
+.journal--entry {
+   display: flex;
+   align-items: center;
+   padding: 50px 20px 10px 20px;
+}
+
+.entry--body {
+   display: flex;
+   flex-direction: column;
+}
+
+.entry--image {
+   width: 125px;
+   height: 168px;
+   object-fit:cover;
+   border-radius: 5px;
+   margin-right: 20px;
+}
+
+.desc--location {
+   display: flex;
+   align-items: center;
+   margin-top: 10px;
+}
+
+.location--icon {
+   width: 7px;
+   height: 9.55px;
+   margin-right: 5px;
+}
+
+.location--country {
+   font-variant-caps: all-petite-caps;
+   margin-right: 15px;
+   font-size: 11px;
+   letter-spacing: 0.15em;
+}
+
+.location--google {
+   color: #918E9B;
+   font-size: 10px;
+}
+
+.entry--title {
+   margin-top: 10px;
+   margin-bottom: 5px;
+   font-size: 25px;
+}
+
+.entry--date {
+   margin-bottom: 0px;
+   font-weight: 700;
+   font-size: 10px;
+   letter-spacing: 0.07em;
+}
+
+.entry--description {
+   max-width: 350px;
+   font-size: 10px;
+}

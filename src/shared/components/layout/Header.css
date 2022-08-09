@@ -1,0 +1,13 @@
+.App-header {
+   background-color: #F55A5A;
+   color: white;
+   display: flex;
+   justify-content: center;
+   font-size: 15px;
+   letter-spacing: -0.075em;
+}
+
+.App-logo {
+   width: 24px;
+   margin-right: 10px;
+}
