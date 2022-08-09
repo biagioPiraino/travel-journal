@@ -6,6 +6,7 @@ import "./JournalEntry.css"
 class JournalEntry extends Component {
    render() {
       return (
+         <React.Fragment>
          <section className="journal--entry">
             <img src={this.props.item.imageUrl} className="entry--image" alt="Entry Image"/>
             <section className="entry--body">
@@ -19,6 +20,8 @@ class JournalEntry extends Component {
                <p className="entry--description">{this.props.item.desc}</p>
             </section>
          </section>
+         <hr className="divider"/>
+         </React.Fragment>
       );
    }
 }

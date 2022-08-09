@@ -6,7 +6,10 @@ import data from "../components/data/TravelData"
 function App() {
 
   const travelData = data.map(
-    x => <JournalEntry item={x}/>
+    x => 
+    <div>
+      <JournalEntry item={x}/>
+    </div>
   )
 
   return (

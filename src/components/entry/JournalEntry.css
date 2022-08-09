@@ -1,7 +1,7 @@
 .journal--entry {
    display: flex;
    align-items: center;
-   padding: 50px 20px 10px 20px;
+   padding: 25px 20px 25px 20px;
 }
 
 .entry--body {
@@ -57,4 +57,11 @@
 .entry--description {
    max-width: 350px;
    font-size: 10px;
+}
+
+.divider {
+   margin-left: 50px;
+   margin-right: 50px;
+   max-width: 650px;
+   border: 1px solid #F5F5F5;
 }
